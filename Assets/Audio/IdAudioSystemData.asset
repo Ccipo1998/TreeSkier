@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b96343ce50c424d960e3d031ccb24e, type: 3}
+  m_Name: IdAudioSystemData
+  m_EditorClassIdentifier: 
+  IdAudioBindings:
+  - SceneName: Playground
+    IdAudios:
+    - {fileID: 11400000, guid: 9a2fd698719bb08478e5ac785925a9b0, type: 2}
+    - {fileID: 11400000, guid: 8dab1d9795ee19d458ad25f2674d06e6, type: 2}
+    - {fileID: 11400000, guid: d482e142214c33d46bf35124575b6413, type: 2}
+    - {fileID: 11400000, guid: d103e86fdb2c3974bb8d61c8a9472794, type: 2}
+    - {fileID: 11400000, guid: 38828d1aa853e6b44976665d670e6a37, type: 2}
+    - {fileID: 11400000, guid: 59fd7e8b902534b4c89b11ebf31bcb58, type: 2}
+    - {fileID: 11400000, guid: bfb70257b0c0b7042940cb71695dd736, type: 2}
+    - {fileID: 11400000, guid: 26e91f0f1e823de4b90053a71bad91d7, type: 2}
+    - {fileID: 11400000, guid: e5fd24d20caadcb46a6d1b1b2b8f21a5, type: 2}
+    - {fileID: 11400000, guid: 38fb83b5b3eabd745a172da49fb2e3b7, type: 2}
+    - {fileID: 11400000, guid: 11495a947613b04479713684bbd041c4, type: 2}
+    - {fileID: 11400000, guid: 07938f6d405bba44a9b8abef12bebd22, type: 2}

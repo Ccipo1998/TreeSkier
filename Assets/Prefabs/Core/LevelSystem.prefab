@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6796682004592128264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3164016016557529454}
+  - component: {fileID: 5221754071427267742}
+  m_Layer: 0
+  m_Name: LevelSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3164016016557529454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796682004592128264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5221754071427267742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796682004592128264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532dfb6142fe0a146af378318bfe5526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _SceneName: Playground
+  _Skier: {fileID: 0}
+  _MaxLifes: 3
+  _SlopeWidth: 5.6
+  _SlopeHeight: 9.8
+  _OutOfScopePoint: {fileID: 0}
+  _InScopePoint: {fileID: 5480952990711113221, guid: 89331642ca93fda40a743225e144fb9a, type: 3}
+  _SnowballChargeTime: 60
+  _SnowflakeGain: 0.02
+  _Spawner: {fileID: 0}
+  _BombHitGameEvent: {fileID: 11400000, guid: feb175f7abac27d4d99e9657575271b0, type: 2}
+  _RampHitGameEvent: {fileID: 11400000, guid: 223fab689b39b9d458136a96d59e4feb, type: 2}
+  _RampExitHitGameEvent: {fileID: 11400000, guid: 1b42102392d73ee408bd2ddd392d7480, type: 2}
+  _X2HitGameEvent: {fileID: 11400000, guid: 8871d28cde1be7e4d8237fdb54440d03, type: 2}
+  _HeartHitGameEvent: {fileID: 11400000, guid: 5a9776879a7580d459251a5b1557072f, type: 2}
+  _CoinHitGameEvent: {fileID: 11400000, guid: 0a6c4d150951445458aeccb0552ca12c, type: 2}
+  _TreeHitGameEvent: {fileID: 11400000, guid: 829bb3bb3ba900c4fb00243c605c4b93, type: 2}
+  _OffFogGameEvent: {fileID: 0}
+  _OutOfScopeEvent: {fileID: 11400000, guid: 635fffeb52463424ab9f320219cd21ab, type: 2}
+  _InScopeEvent: {fileID: 11400000, guid: 2b1c4f439e2984543bda2e1f6cd8e759, type: 2}
+  _OnPauseEvent: {fileID: 11400000, guid: 3bfb696e021e9114aa054bbf6dcc4277, type: 2}
+  _OnResumeEvent: {fileID: 11400000, guid: c7ad70251750bb248b24635bd9f30135, type: 2}
+  _OnGameOverEvent: {fileID: 11400000, guid: 7158dc30fc4855f48b72c09db8d7b48a, type: 2}
+  _OnRestartEvent: {fileID: 11400000, guid: 5b575379cd505cb4cbaa6d7f91c8e3eb, type: 2}
+  _OnRampFlowEvent: ON_RAMP
+  _OffRampFlowEvent: OFF_RAMP
+  _OnAcrobaticStartFlowEvent: ACROBATIC_STARTED
+  _OnAcrobaticEndFlowEvent: ACROBATIC_FINISHED
+  _OnResumeFlowEvent: PAUSE_CLOSE
+  _OnRestartFlowEvent: RESTART_GAME
+  _TimeStep: 10
+  _SpeedIncrease: 0.1
+  _SpawnDensityIncrease: 0.1
+  _SecondsFog: 45
+  _PlaygroundViewControllerID: {fileID: 11400000, guid: 5928b1ff4a2884743aa6db1df037f6bc, type: 2}
+  _JumpAudioId: {fileID: 11400000, guid: bbe50b331ad965046b6f1d6c22290e4c, type: 2}
+  _BigJumpAudioId: {fileID: 11400000, guid: d896c03a0c404b94b834aff532ec1f77, type: 2}
+  _BombAudioId: {fileID: 11400000, guid: af928754bbe9c3e4fb9d02bab9f53c93, type: 2}
+  _TreeHitAudioId: {fileID: 11400000, guid: 7856d19ac46075c4ebb8892c089bbbf2, type: 2}
+  _X2AudioId: {fileID: 11400000, guid: 5724a4d0fdc8f1748ae7cb0ea60bbf98, type: 2}
+  _SnowflakeAudioId: {fileID: 11400000, guid: 09e99458f56969740bda19ee353cd29f, type: 2}
+  _CoinAudioId: {fileID: 11400000, guid: 77037e683c660a644a7e89cbd4244842, type: 2}
+  _HeathAudioId: {fileID: 11400000, guid: d1db848873711854ea2897018313fb83, type: 2}
+  _FallAudioId: {fileID: 11400000, guid: a6f64c48487e98d4eb953f394bc2c06e, type: 2}
+  _JumpSuccessAudioId: {fileID: 11400000, guid: 01e66d890a9dc1a4f9f7dbc11c1ceddd, type: 2}
+  _NormalMusicAudioId: {fileID: 0}
+  _FastMusicAudioId: {fileID: 0}
+  _snowballCharge: 0

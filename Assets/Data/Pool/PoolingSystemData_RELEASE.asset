@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e598ced88df934eab3d3c723fa04c5, type: 3}
+  m_Name: PoolingSystemData_RELEASE
+  m_EditorClassIdentifier: 
+  PoolManagerBindings:
+  - SceneName: Playground
+    PoolManagers:
+    - {fileID: -5123259071073565075, guid: 65b6f8346ba009b45aea3598e0dd34e8, type: 3}
+    - {fileID: -5123259071073565075, guid: 77f905447a28d7445b8571d939fc99f2, type: 3}
+    - {fileID: -5123259071073565075, guid: bd2b0d3d12a9c0744bfdf650bdbc43a5, type: 3}
+    - {fileID: -5123259071073565075, guid: a9ede219a5e0f6c4ab40b6fa5b69a8a7, type: 3}
+    - {fileID: -5123259071073565075, guid: f730de82b9241d64daa6a009b69bff82, type: 3}
+    - {fileID: -5123259071073565075, guid: c1f125a15a388734b939aef3a2128106, type: 3}
+    - {fileID: -5123259071073565075, guid: 90835f30c78105d47afbbd6b30ce0315, type: 3}
+    - {fileID: -5123259071073565075, guid: 07b760c4582f30f46b8269294f07007e, type: 3}
+    - {fileID: -5123259071073565075, guid: a335a08c8959ac148b06ab5e8efc7776, type: 3}
+    - {fileID: -5123259071073565075, guid: 3cdb50e954959c544a097cf796df5ddd, type: 3}
+    - {fileID: 6230519772642811386, guid: 8221dd52d1c733842b97e1c18b8258d7, type: 3}
+    - {fileID: 6162144841025153046, guid: 83c1fe2b5fd71ab4d9a4cabeda33a052, type: 3}
+    - {fileID: -5123259071073565075, guid: 7b586e89529884d419cb82ac30839d50, type: 3}
+    - {fileID: -5123259071073565075, guid: 166251bc689e83246b056ff5893d0c29, type: 3}
+    - {fileID: -5123259071073565075, guid: 8c93f02f11992b64cb2b816c6896a647, type: 3}
+    - {fileID: 7022378223779083721, guid: 751f89008ac65b34f8f11fa75f9b97e7, type: 3}
